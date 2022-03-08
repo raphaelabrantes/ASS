@@ -1,0 +1,8 @@
+*ninja*
+CMakeFiles
+CMakeCache.txt
+.cmake
+cmake*
+Testing/
+ASS
+.idea
