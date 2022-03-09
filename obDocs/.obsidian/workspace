@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Registers.md",
+            "file": "Sections.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "2822e66d7034db9b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Control Registers.md",
             "mode": "preview"
           }
         }
@@ -68,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Registers.md",
+                "file": "Sections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +99,10 @@
   },
   "active": "8d2928b5e38f731e",
   "lastOpenFiles": [
+    "Sections.md",
     "Registers.md",
-    "register.png",
-    "Sections.md"
+    "Control Registers.md",
+    "General Registers.md",
+    "general_register.png"
   ]
 }

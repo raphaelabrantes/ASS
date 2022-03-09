@@ -1,11 +1,7 @@
-10x 32-bit
-6x 16-bit
+Types:
+[[General Registers]]]:
+- [[General Registers#Data Registers|Data Registers]]
+- [[General Registers#Pointer Registers|Pointer Registers]]
+- [[General Registers#Index Registers|Index Registers]]
 
-# General Registers
-## Data Registers
-![[register.png|500]]
-
-## Pointer Registers
-
-## Segment Registers
-
+[[Control Registers]]
