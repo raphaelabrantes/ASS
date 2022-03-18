@@ -22,3 +22,6 @@
 | 19    | VIF   | Virtual interrupt flag        |
 | 20    | VIP   | Virtual interrupt pending     |
 | 21    | ID    | Able to use CPUID instruction |
+
+CHECK FOR MORE
+http://www.c-jump.com/CIS77/ASM/Instructions/I77_0070_eflags_bits.htm

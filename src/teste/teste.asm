@@ -4,28 +4,27 @@
 ; Run with: ./helloworld
 
 SECTION .data
-msg     db      'EAE BOCA DE PELO VAI VAI VAI!', 0Ah
+
 
 SECTION .text
 global  _start
 
+;; checking if 32bit registers will overwrite its lower 16bit and 8 bit registers
+
 _start:
-    mov     eax, msg
-    mov     edx, eax
+    mov     al, 5
+    mov     ah, 5
+    cmp     ax,  1285
+    jne     end_failed
+    cmp     eax, 1285
+    je      end_success
 
-count:
-    cmp    byte[edx], 0
-    jz     finished
-    inc    edx
-    jmp    count
-
-finished:
-    sub     edx, eax
-    mov     ecx, msg
+end_failed:
     mov     ebx, 1
-    mov     eax, 4
+    mov     eax, 1
     int     80h
 
+end_success:
     mov     ebx, 0      ; return 0 status on exit - 'No Errors'
     mov     eax, 1      ; invoke SYS_EXIT (kernel opcode 1)
     int     80h

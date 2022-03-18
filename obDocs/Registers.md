@@ -5,3 +5,4 @@ Types:
 - [[General Registers#Index Registers|Index Registers]]
 
 [[Control Registers]]
+[[Segment Registers]]
